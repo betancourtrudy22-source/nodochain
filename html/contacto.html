@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto | NodoChain</title>
+<meta name="description" content="Formulario de contacto de NodoChain con validación de campos.">
+<link rel="icon" href="../img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand"><img src="../img/logo.svg" alt="Logo NodoChain"></a>
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="acerca.html">Acerca de</a>
+      <a href="tipos.html">Tipos</a>
+      <a href="aplicaciones.html">Aplicaciones</a>
+      <a href="empezar.html">Primeros pasos</a>
+      <a href="recursos.html">Recursos</a>
+      <a href="contacto.html" class="active">Contacto</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menú">☰</button>
+  </div>
+</header>
+
+<section class="hero hero-small">
+  <div class="container hero-content">
+    <span class="eyebrow">Escríbenos</span>
+    <h1>¿Tienes preguntas sobre <span>blockchain</span>?</h1>
+    <p>Completa el formulario y te responderemos. Los campos se validan antes de enviarse.</p>
+  </div>
+</section>
+
+<main>
+  <section>
+    <div class="container content-layout">
+      <article>
+        <div class="form-wrap">
+          <form id="contact-form" novalidate>
+            <div class="two-col">
+              <div class="form-row">
+                <label for="nombre">Nombre completo *</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej. Kevin Kakiyama" required minlength="3">
+                <span class="error-msg">Ingresa al menos 3 caracteres.</span>
+              </div>
+              <div class="form-row">
+                <label for="email">Correo electrónico *</label>
+                <input type="email" id="email" name="email" placeholder="nombre@correo.com" required>
+                <span class="error-msg">Ingresa un correo electrónico válido.</span>
+              </div>
+            </div>
+            <div class="two-col">
+              <div class="form-row">
+                <label for="telefono">Teléfono *</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="6000-0000" required>
+                <span class="error-msg">Ingresa un número de teléfono válido (7 a 15 dígitos).</span>
+              </div>
+              <div class="form-row">
+                <label for="asunto">Asunto</label>
+                <select id="asunto" name="asunto">
+                  <option value="Consulta general">Consulta general</option>
+                  <option value="Dudas sobre el sitio">Dudas sobre el sitio</option>
+                  <option value="Colaboración académica">Colaboración académica</option>
+                  <option value="Otro">Otro</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="mensaje">Mensaje *</label>
+              <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje (mínimo 10 caracteres)..." required minlength="10"></textarea>
+              <span class="error-msg">El mensaje debe tener al menos 10 caracteres.</span>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+            <div id="form-status" class="form-status"></div>
+          </form>
+
+          <div class="records">
+            <h3 style="margin-bottom:14px;">Mensajes guardados en este navegador</h3>
+            <table>
+              <thead>
+                <tr><th>Nombre</th><th>Correo</th><th>Teléfono</th><th>Fecha</th></tr>
+              </thead>
+              <tbody id="records-body">
+                <tr><td colspan="4">Todavía no hay mensajes guardados en este navegador.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </article>
+
+      <aside>
+        <h3>¿Cómo te podemos ayudar?</h3>
+        <ul>
+          <li>Selecciona un asunto para dirigir mejor tu mensaje.</li>
+          <li>Sé lo más específico posible: entre más detalles des, más rápida será la respuesta.</li>
+          <li>Revisa que tu correo y teléfono estén bien escritos antes de enviar.</li>
+        </ul>
+        <div class="fact">
+          <strong>24–48 h</strong>
+          <span>Tiempo estimado de respuesta a tu mensaje.</span>
+        </div>
+        <div class="fact">
+          <strong>Grupo 1SF134</strong>
+          <span>Proyecto académico de Ingeniería Web, Universidad Tecnológica de Panamá.</span>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="../img/logo.svg" alt="Logo NodoChain">
+        <p>Proyecto académico de Ingeniería Web — Universidad Tecnológica de Panamá, Facultad de Ingeniería de Sistemas Computacionales.</p>
+        <p class="footer-slogan">"Bloque a bloque, construyendo confianza digital."</p>
+      </div>
+      <div>
+        <h4>Sitio</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="acerca.html">Acerca de</a></li>
+          <li><a href="tipos.html">Tipos</a></li>
+          <li><a href="aplicaciones.html">Aplicaciones</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Más</h4>
+        <ul>
+          <li><a href="empezar.html">Primeros pasos</a></li>
+          <li><a href="recursos.html">Recursos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 NodoChain — Parcial 1 - Ing. Web, Grupo 1SF134.</span>
+      <span>Kevin Kakiyama · Rydumar Betancourt</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340">
+  <defs>
+    <linearGradient id="cardA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#20264f"/>
+      <stop offset="100%" stop-color="#0d1436"/>
+    </linearGradient>
+  </defs>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="30" y="30" width="400" height="280" rx="18" fill="url(#cardA)" stroke="#00e5ff" stroke-width="2"/>
+    <text x="230" y="70" text-anchor="middle" fill="#00e5ff" font-size="20" font-weight="700">Prueba de Trabajo</text>
+    <text x="230" y="92" text-anchor="middle" fill="#8ea0e0" font-size="13">(Proof of Work)</text>
+    <circle cx="90" cy="140" r="26" fill="none" stroke="#7b5cff" stroke-width="3"/>
+    <text x="90" y="146" text-anchor="middle" fill="#c9d4ff" font-size="12">CPU</text>
+    <circle cx="170" cy="180" r="26" fill="none" stroke="#7b5cff" stroke-width="3"/>
+    <text x="170" y="186" text-anchor="middle" fill="#c9d4ff" font-size="12">GPU</text>
+    <circle cx="260" cy="140" r="26" fill="none" stroke="#7b5cff" stroke-width="3"/>
+    <text x="260" y="146" text-anchor="middle" fill="#c9d4ff" font-size="11">ASIC</text>
+    <text x="60" y="250" fill="#c9d4ff" font-size="13">Los mineros compiten resolviendo</text>
+    <text x="60" y="270" fill="#c9d4ff" font-size="13">un acertijo criptográfico con</text>
+    <text x="60" y="290" fill="#c9d4ff" font-size="13">gran gasto de energía y hardware.</text>
+
+    <rect x="470" y="30" width="400" height="280" rx="18" fill="url(#cardA)" stroke="#7b5cff" stroke-width="2"/>
+    <text x="670" y="70" text-anchor="middle" fill="#7b5cff" font-size="20" font-weight="700">Prueba de Participación</text>
+    <text x="670" y="92" text-anchor="middle" fill="#8ea0e0" font-size="13">(Proof of Stake)</text>
+    <rect x="520" y="120" width="60" height="40" rx="8" fill="none" stroke="#00e5ff" stroke-width="3"/>
+    <text x="550" y="145" text-anchor="middle" fill="#c9d4ff" font-size="11">Stake</text>
+    <rect x="610" y="150" width="60" height="40" rx="8" fill="none" stroke="#00e5ff" stroke-width="3"/>
+    <text x="640" y="175" text-anchor="middle" fill="#c9d4ff" font-size="11">Stake</text>
+    <rect x="700" y="120" width="60" height="40" rx="8" fill="none" stroke="#00e5ff" stroke-width="3"/>
+    <text x="730" y="145" text-anchor="middle" fill="#c9d4ff" font-size="11">Stake</text>
+    <text x="500" y="250" fill="#c9d4ff" font-size="13">Los validadores bloquean monedas</text>
+    <text x="500" y="270" fill="#c9d4ff" font-size="13">como garantía; el protocolo elige</text>
+    <text x="500" y="290" fill="#c9d4ff" font-size="13">quién valida con bajo consumo.</text>
+  </g>
+</svg>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tipos de Blockchain y Consenso | NodoChain</title>
+<meta name="description" content="Blockchain pública, privada y de consorcio; Prueba de Trabajo vs Prueba de Participación.">
+<link rel="icon" href="../img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand"><img src="../img/logo.svg" alt="Logo NodoChain"></a>
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="acerca.html">Acerca de</a>
+      <a href="tipos.html" class="active">Tipos</a>
+      <a href="aplicaciones.html">Aplicaciones</a>
+      <a href="empezar.html">Primeros pasos</a>
+      <a href="recursos.html">Recursos</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menú">☰</button>
+  </div>
+</header>
+
+<section class="hero hero-small">
+  <div class="container hero-content">
+    <span class="eyebrow">Arquitectura de red</span>
+    <h1>Tipos de blockchain y <span>mecanismos de consenso</span></h1>
+    <p>No toda blockchain es igual: el nivel de acceso a la red y la forma en que se ponen de acuerdo los nodos cambian por completo su uso.</p>
+  </div>
+</section>
+
+<main>
+  <section class="tight">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Según quién puede participar</span>
+        <h2>Pública, privada o de consorcio</h2>
+        <p>Las redes blockchain se clasifican, principalmente, según quién puede leer, escribir y validar información en ellas.</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="icon">🌐</div>
+          <h3>Pública</h3>
+          <p>Cualquier persona puede unirse, leer el historial completo y proponer transacciones.</p>
+          <ul>
+            <li>Ejemplos: Bitcoin, Ethereum</li>
+            <li>Máxima descentralización</li>
+            <li>Reto: escalabilidad</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="icon">🔒</div>
+          <h3>Privada</h3>
+          <p>Una sola organización controla quién puede participar en la red.</p>
+          <ul>
+            <li>Uso interno empresarial</li>
+            <li>Alta velocidad y control</li>
+            <li>Menor descentralización</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="icon">🤝</div>
+          <h3>De consorcio</h3>
+          <p>Un grupo predefinido de organizaciones valida los bloques en conjunto.</p>
+          <ul>
+            <li>Común en banca y logística</li>
+            <li>Control compartido</li>
+            <li>Equilibrio entre control y apertura</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container content-layout">
+      <article>
+        <h2>Mecanismos de consenso</h2>
+        <p>Para que miles de nodos independientes se pongan de acuerdo sobre qué bloque es el válido, la red sigue un protocolo de consenso. Los dos más usados son:</p>
+        <figure>
+          <img src="../img/consenso.svg" alt="Comparación entre Prueba de Trabajo (mineros compitiendo con hardware) y Prueba de Participación (validadores bloqueando monedas como garantía)" loading="lazy">
+          <figcaption>Prueba de Trabajo vs. Prueba de Participación.</figcaption>
+        </figure>
+        <ol>
+          <li><strong>Prueba de Trabajo (Proof of Work):</strong> los "mineros" compiten resolviendo un problema criptográfico que exige mucha potencia de cómputo. El primero en resolverlo agrega el siguiente bloque y recibe una recompensa. Es el método original de Bitcoin; es muy seguro, pero consume grandes cantidades de energía.</li>
+          <li><strong>Prueba de Participación (Proof of Stake):</strong> los validadores bloquean ("stake") una cantidad de criptomoneda como garantía. El protocolo elige, con base en esa participación y otros factores, quién valida el siguiente bloque. Consume muchísima menos energía; Ethereum migró a este modelo en 2022 en un evento conocido como "The Merge".</li>
+        </ol>
+
+        <h2>Otras variantes de consenso</h2>
+        <ul>
+          <li><strong>Prueba de Autoridad (PoA):</strong> un número reducido de validadores identificados y confiables aprueba los bloques; se usa en redes privadas y de prueba.</li>
+          <li><strong>Tolerancia práctica a fallos bizantinos (PBFT):</strong> los nodos votan directamente sobre la validez de un bloque; común en blockchains de consorcio empresariales.</li>
+        </ul>
+
+        <h2>¿Cuál conviene en cada caso?</h2>
+        <p>Una red pública con Prueba de Trabajo o Participación conviene cuando la confianza entre desconocidos y la resistencia a la censura son prioritarias, como en criptomonedas. Una red privada o de consorcio con PoA o PBFT conviene cuando los participantes ya se conocen (bancos, aliados logísticos) y se busca velocidad y menor costo operativo.</p>
+      </article>
+
+      <aside>
+        <h3>Comparación rápida</h3>
+        <ul>
+          <li><strong>Pública:</strong> máxima descentralización, acceso abierto.</li>
+          <li><strong>Privada:</strong> control centralizado, alta velocidad.</li>
+          <li><strong>Consorcio:</strong> control compartido entre varias organizaciones.</li>
+        </ul>
+        <div class="fact">
+          <strong>PoW → PoS</strong>
+          <span>Ethereum redujo su consumo energético en más de un 99% al migrar de Prueba de Trabajo a Prueba de Participación en 2022.</span>
+        </div>
+        <div class="fact">
+          <strong>21 millones</strong>
+          <span>Límite máximo de bitcoins que llegarán a existir, definido en el protocolo original.</span>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="../img/logo.svg" alt="Logo NodoChain">
+        <p>Proyecto académico de Ingeniería Web — Universidad Tecnológica de Panamá, Facultad de Ingeniería de Sistemas Computacionales.</p>
+        <p class="footer-slogan">"Bloque a bloque, construyendo confianza digital."</p>
+      </div>
+      <div>
+        <h4>Sitio</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="acerca.html">Acerca de</a></li>
+          <li><a href="tipos.html">Tipos</a></li>
+          <li><a href="aplicaciones.html">Aplicaciones</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Más</h4>
+        <ul>
+          <li><a href="empezar.html">Primeros pasos</a></li>
+          <li><a href="recursos.html">Recursos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 NodoChain — Parcial 1 - Ing. Web, Grupo 1SF134.</span>
+      <span>Kevin Kakiyama · Rydumar Betancourt</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>

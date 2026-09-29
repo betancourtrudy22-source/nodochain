@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260">
+  <defs>
+    <linearGradient id="statGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#7b5cff"/>
+    </linearGradient>
+  </defs>
+  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <rect x="10" y="10" width="230" height="220" rx="16" fill="#121a3f" stroke="#263266"/>
+    <text x="125" y="90" font-size="40" font-weight="800" fill="url(#statGrad)">+280M</text>
+    <text x="125" y="120" font-size="12" fill="#9fb0e0">de personas usan</text>
+    <text x="125" y="138" font-size="12" fill="#9fb0e0">blockchain hoy (~4% global)</text>
+
+    <rect x="255" y="10" width="230" height="220" rx="16" fill="#121a3f" stroke="#263266"/>
+    <text x="370" y="90" font-size="40" font-weight="800" fill="url(#statGrad)">85M+</text>
+    <text x="370" y="120" font-size="12" fill="#9fb0e0">billeteras digitales</text>
+    <text x="370" y="138" font-size="12" fill="#9fb0e0">(wallets) activas</text>
+
+    <rect x="500" y="10" width="230" height="220" rx="16" fill="#121a3f" stroke="#263266"/>
+    <text x="615" y="90" font-size="40" font-weight="800" fill="url(#statGrad)">20K+</text>
+    <text x="615" y="120" font-size="12" fill="#9fb0e0">criptomonedas</text>
+    <text x="615" y="138" font-size="12" fill="#9fb0e0">registradas en el mercado</text>
+
+    <rect x="745" y="10" width="245" height="220" rx="16" fill="#121a3f" stroke="#263266"/>
+    <text x="867" y="90" font-size="34" font-weight="800" fill="url(#statGrad)">$50B+</text>
+    <text x="867" y="120" font-size="12" fill="#9fb0e0">valor estimado del</text>
+    <text x="867" y="138" font-size="12" fill="#9fb0e0">mercado blockchain (2026)</text>
+  </g>
+</svg>

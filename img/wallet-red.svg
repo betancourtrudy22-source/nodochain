@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300">
+  <defs>
+    <linearGradient id="walGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a2454"/>
+      <stop offset="100%" stop-color="#0d1436"/>
+    </linearGradient>
+  </defs>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <!-- Tarjeta wallet -->
+    <rect x="60" y="60" width="320" height="190" rx="20" fill="url(#walGrad)" stroke="#00e5ff" stroke-width="2"/>
+    <circle cx="100" cy="100" r="14" fill="#7b5cff"/>
+    <text x="125" y="105" fill="#f2f6ff" font-size="15" font-weight="700">Mi Billetera</text>
+    <rect x="90" y="130" width="260" height="40" rx="8" fill="#0a1030" stroke="#263266"/>
+    <text x="105" y="155" fill="#00e5ff" font-size="12">0x4F2...9cA1</text>
+    <text x="90" y="195" fill="#9fb0e0" font-size="12">Saldo</text>
+    <text x="90" y="220" fill="#f2f6ff" font-size="22" font-weight="700">0.842 ETH</text>
+
+    <!-- Flecha -->
+    <line x1="400" y1="155" x2="470" y2="155" stroke="#00e5ff" stroke-width="3"/>
+    <polygon points="470,147 490,155 470,163" fill="#00e5ff"/>
+
+    <!-- Red blockchain -->
+    <g stroke="#7b5cff" stroke-opacity="0.6">
+      <line x1="560" y1="90" x2="650" y2="140"/>
+      <line x1="650" y1="140" x2="740" y2="90"/>
+      <line x1="650" y1="140" x2="650" y2="220"/>
+      <line x1="650" y1="220" x2="560" y2="260"/>
+      <line x1="650" y1="220" x2="740" y2="260"/>
+    </g>
+    <g fill="#00e5ff">
+      <circle cx="560" cy="90" r="8"/>
+      <circle cx="740" cy="90" r="8"/>
+      <circle cx="650" cy="140" r="10"/>
+      <circle cx="650" cy="220" r="10"/>
+      <circle cx="560" cy="260" r="8"/>
+      <circle cx="740" cy="260" r="8"/>
+    </g>
+    <text x="650" y="40" text-anchor="middle" fill="#9fb0e0" font-size="13">Red blockchain (nodos)</text>
+  </g>
+</svg>

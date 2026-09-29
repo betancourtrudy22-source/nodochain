@@ -1,0 +1,36 @@
+NodoChain — Sitio web sobre Blockchain
+Ingeniería Web · Parcial N.º 1 · Grupo 1SF134
+Integrantes: Kevin Kakiyama y Rydumar Betancourt
+
+TÉCNICA DE DISEÑO UTILIZADA: CARD SORTING
+-------------------------------------------
+Antes de construir el sitio se aplicó la técnica de Card Sorting para
+organizar el contenido y decidir la arquitectura de información. Se
+agruparon los temas relacionados con el proyecto en las siguientes
+categorías (tal como se anotaron en el borrador inicial):
+
+  1. Diseño        -> paleta de colores, tipografía, logo, navegación
+  2. Contenido      -> texto real sobre blockchain: definición, historia,
+                        tipos, consenso, aplicaciones, primeros pasos
+  3. Funcionamiento -> interactividad: formulario validado, menú móvil,
+                        efecto de scroll en la barra de navegación
+  4. Hosting        -> publicación del sitio en un servicio gratuito
+
+A partir de esas 4 categorías se derivó el mapa de páginas del sitio:
+
+  index.html         Inicio
+  acerca.html         Acerca de (definición, historia, cómo funciona)
+  tipos.html           Tipos de blockchain y mecanismos de consenso
+  aplicaciones.html    Aplicaciones y casos de uso reales
+  empezar.html          Primeros pasos (requisitos e instalación de una wallet)
+  recursos.html        Video, audio, galería de imágenes y enlaces
+  contacto.html         Formulario de contacto con validación
+
+ESTRUCTURA DE CARPETAS
+-------------------------------------------
+Kakiyama_Betancourt/
+  index.html            (redirección a html/index.html para el hosting)
+  html/                 Las 7 páginas del sitio (incluye Primeros Pasos)
+  css/styles.css        Hoja de estilos única
+  img/                  Logo, ilustraciones SVG originales y audio
+  js/script.js          Efecto de scroll, menú móvil y validación del formulario

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" width="220" height="60">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#7b5cff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect x="4" y="18" width="22" height="22" rx="5" transform="rotate(45 15 29)" fill="none" stroke="url(#logoGrad)" stroke-width="3"/>
+    <rect x="30" y="18" width="22" height="22" rx="5" transform="rotate(45 41 29)" fill="url(#logoGrad)"/>
+    <rect x="56" y="18" width="22" height="22" rx="5" transform="rotate(45 67 29)" fill="none" stroke="url(#logoGrad)" stroke-width="3"/>
+    <line x1="26" y1="29" x2="30" y2="29" stroke="url(#logoGrad)" stroke-width="3"/>
+    <line x1="52" y1="29" x2="56" y2="29" stroke="url(#logoGrad)" stroke-width="3"/>
+  </g>
+  <text x="88" y="27" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#f2f6ff">Nodo</text>
+  <text x="88" y="47" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#00e5ff">Chain</text>
+</svg>
